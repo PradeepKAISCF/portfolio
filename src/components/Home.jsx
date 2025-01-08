@@ -3,6 +3,7 @@ import { useState, useEffect, useRef } from 'react';
 import { name } from '../constants';
 import { motion } from "framer-motion";
 import Background from './Background';
+import name1 from '../assets/name.jpg'
 import Footer from './Footer';
 
 const Home = () => {
@@ -35,9 +36,12 @@ const Home = () => {
 				<li></li>
 			</ul>
 			<div className='hero relative h-[calc(100vh)] flex justify-center items-center text-white' id='hero'>
+				<div className='flex justify-center mt-8 mr-5'>
+					<img className=" w-80 h-80 rounded-full border-4 border-gray-300 shadow-lg object-cover " src={name1} alt="" />
+				</div>
 				<div className='pt-4 h-36 backdrop-blur-sm rounded-3xl'>
 					<h1 className='text-6xl sm:text-7xl font-extrabold mt-2'>Hi, I'm&nbsp;<span className='text-yellow-200 font-extrabold'>{text}</span></h1>
-					<p className='mt-3 text-xl'>I love to learn and build scalable and optimized backend systems.</p>
+					<p className='mt-3 text-xl'>Final Year Btech CSE in spl in CPS who has foundation in IOT Technologies.</p>
 				</div>      
 			</div>
 			<Footer/>

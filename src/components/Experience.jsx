@@ -7,8 +7,8 @@ import Footer from './Footer';
 
 const Experience = () => {
   return (
-    <div className='experience bg-black w-screen text-white pt-4 pt-16 overflow-x-hidden' id='experience'>
-      <div className='pt-12 sm:px-16'>
+    <div className='experience min-h-screen flex flex-col bg-black w-screen text-white pt-4 pt-16 overflow-x-hidden' id='experience'>
+      <div className='flex-grow pt-12 sm:px-16'>
         <p className='font-light'>MY JOURNEY SO FAR.</p>
         <h2 className='text-4xl sm:text-5xl font-extrabold mt-2'>Work Experience.</h2>
       </div>

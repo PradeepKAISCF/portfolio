@@ -1,45 +1,34 @@
 
 export const services = [
+    //{
+      //  title: "Technology Enthusiast",
+        //icon: 'https://csgeeek.github.io/web.png',
+    //},
     {
-        title: "Technology Enthusiast",
+        title: "MERN Stack Development",
         icon: 'https://csgeeek.github.io/web.png',
     },
     {
-        title: "Software Engineer",
-        icon: 'https://csgeeek.github.io/web.png',
-    },
-    {
-        title: "Photographer",
+        title: "Ml DL Enthusiast",
         icon: 'https://csgeeek.github.io/web.png',
     },
 ];
 
-export const name = 'Nithin';
+export const name = 'Pradeep';
 
 export const experiences = [
     {
-        'company': 'Inncircles Technologies',
-        'role': 'Product Developer',
-        'duration': 'April 2023 - Present',
-        'logo': 'https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/e5gz1yggdy8sc1umna3e',
+        'company': 'Bharatiya Nabhikiya Vidyut Nigam (BHAVINI)',
+        'role': 'Networking and Web Development Intern',
+        'duration': 'August 2023',
+        'logo': 'https://media.licdn.com/dms/image/v2/C560BAQEwSdp7-XlivQ/company-logo_200_200/company-logo_200_200/0/1632316346747?e=2147483647&v=beta&t=9Cyz_-6Jq_zVbIoMnASZ-ANef5zoYqzyUjqOeuyYng8',
         'points': [
-            'Involved in dynamic contributions to web and mobile📱 development projects, actively influencing and improving project outcomes.',
-            'Developed multiple shared components to simplify tasks for fellow developers, boosting efficiency and teamwork.',
-            'Enhanced product performance through significant contributions to backend development, optimizing essential components for improved efficiency 📈.',
-            'Implemented data security for the company’s product to provide role-based access control ⚙️.'
+            'Contributed to network mapping using Zabbix, enhancing monitoring and visualization of system performance and connectivity.',
+            'Participated in Red Hat OS installation and configuration, ensuring secure and efficient deployment of server environments.',
+            'Collaborated with the website development team, actively engaging in improving and maintaining internal web platforms.',
+            'Strengthened infrastructure by assisting in server maintenance and implementing effective network solutions to support operational stability ⚙️.'
         ],
-        'url': 'https://inncircles.com/#home',
-    },
-    {
-        'company': 'AT & T',
-        'role': 'Technical Intern',
-        'duration': 'Jan 2023 - March 2023',
-        'logo': 'https://www.att.com/ecms/dam/att/consumer/global/logos/att_globe_500x500.jpg',
-        'points': [
-            'Gained experience with Git version control contributing to the development and maintenance of code repositories.',
-            'Worked on the application dashboard, making it more user-friendly and improving its overall functionality📱.'
-        ],
-        'url': 'https://www.att.com/',
+        'url': 'https://bhavini.nic.in/',
     },
 ]
 
